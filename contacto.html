@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Baberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1>
+                <img src= "" alt="Logo de la barberia">
+            </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="productos.html">Prooductos</a> </li>
+                    <li> <a href="contacto.html"> Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" equired>
+
+            <label for="correo">Correo Electronico</label>
+            <input type="email" required placeholder="email@dominio.com">
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" required placeholder="(xx) xxxx xxxx">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="5" rows="5"required></textarea>
+
+            <fieldset>
+                <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                <label for="radio-email"> <input type="radio" value="email" name="contacto">Email</label>
+
+
+                <label for="radio-telefono"><input type="radio" value="telefono" name="contacto">Telefono</label>
+
+
+                <label for="radio-whatsapp"> <input type="radio" value="Whatsapp" name="contacto"checked>Whatsapp</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En cual horario prefiere ser atendido?</legend>
+                <select>
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            
+            </fieldset>
+
+
+            <label ><input type="checkbox" checked>¿Le gustaria recibir novedades sobre la barberia?</label>
+
+            <input type="submit" value="Enviar Formulario">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horario</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h ~ 20h</td>
+                    </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <img src="" alt="Ups! Parece que no se pudo cargar la imagen">
+        <p class="copyright"> &copy Copyright Barberia 1969 - 2020</p>
+    </footer>
+
+</body>
